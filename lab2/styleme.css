@@ -17,3 +17,15 @@ h2 {
 .inclined {
   font-style: italic;
 }
+
+li a {
+  text-decoration: none;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+p::first-letter {
+  font-size: 1.5em;
+}
