@@ -108,10 +108,8 @@ p {
   margin: 0.75em 0;
   line-height: 2;
 }
-div[role="article"] {
-  background-color: pink;
-  /* display: flex;
-  flex-flow: row, wrap; */
+.participation {
+  width: 600px;
 }
 
 .page-wrapper {
@@ -438,6 +436,10 @@ li.viewall a {
 .requirements p:nth-child(5) {
   padding-bottom: 2em;
 }
+.supporting {
+  display: flex;
+  flex-flow: row, wrap;
+}
 .supporting .requirements {
   float: none;
   clear: both;
@@ -455,7 +457,7 @@ li.viewall a {
 .supporting .requirements h3 {
   padding-top: 0;
 }
-.requirements p:last-child {
+.contentinfo {
   width: auto;
   padding: 1em 12%;
   margin: 0;
